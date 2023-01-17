@@ -74,15 +74,16 @@ h4 {
 .button-inicio svg {
   margin-right: 0.5em;
 }
-
-.button-inicio:hover {
-  cursor: pointer;
-  border-radius: 20em;
-  box-shadow: 0 0 0.3125em 0.3125em rgb(86, 46, 128);
+@media(hover:hover){
+  .button-inicio:hover {
+    cursor: pointer;
+    border-radius: 20em;
+    box-shadow: 0 0 0.3125em 0.3125em rgb(86, 46, 128);
+  }
 }
 
 .image-cartoon {
-  width: 40.625em;
+  width: 41.625em;
 }
 
 #sobre-mim {
@@ -373,10 +374,6 @@ header{
 .footer-email{
   margin-bottom: 35px;
 }
-
-
-
-
 }
 
 
@@ -388,7 +385,8 @@ header{
 @media (min-width: 768px) and (max-width: 1024px) {
     
  .image-cartoon{
-  display: none;
+  width: 400px;
+  padding-top: 90px;
  }
 
  /* Provisório */
@@ -434,7 +432,7 @@ margin: 15px;
   }
 
   h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
