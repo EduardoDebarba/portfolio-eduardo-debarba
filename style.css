@@ -225,6 +225,36 @@ footer {
 
 @media (max-width: 450px) {
 
+  /* Provisório */
+
+  #header-nome {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.header-itens {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+header{
+  height: 50px;
+}
+
+#first-section {
+  margin: 15px;
+}
+
+
+
+
+
+
   .image-cartoon{
     display: none;
   }
@@ -279,7 +309,6 @@ footer {
 
   .logo{
     position: relative;
-    /* text-align: center; */
     width: 12rem;
     padding: 0;
     display: flex;
@@ -335,6 +364,8 @@ footer {
 .footer-email{
   margin-bottom: 35px;
 }
+
+
 }
 
 
@@ -349,6 +380,31 @@ footer {
   display: none;
  }
 
+ /* Provisório */
+
+ #header-nome {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-itens {
+font-size: 28px;
+display: flex;
+justify-content: space-around;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+header{
+height: 50px;
+}
+
+#first-section {
+margin: 15px;
+}
+
   .text-pessoal{
     padding: 0;
     margin: 0;
@@ -361,6 +417,9 @@ footer {
   #first-section{
     padding: 0;
     margin: 0;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
   }
 
   h1{
@@ -373,7 +432,7 @@ footer {
   }
 
   #sobre-mim{
-    padding: 150px;
+    padding: 100px;
     margin: 0;
     display: flex;
     align-items: center;
@@ -455,32 +514,20 @@ footer {
 }
 
 
-.footer-telefone{
+.footer-telefone, .footer-linkedin{
   margin-top: 35px;
   margin-bottom: 35px;
+}
+  
+  .footer-email{
+    margin-bottom: 35px;
+  }
 
-
-
-
-
- 
+  footer{
+    margin-bottom: 350px;
+  }
 }
 
-.footer-linkedin{
-  margin-top: 35px;
-  margin-bottom: 35px;
 
 
 
-
-
-}
-
-.footer-email{
-  margin-bottom: 35px;
-
-
-
-
-}
-}
