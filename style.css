@@ -138,10 +138,12 @@ h2 {
   font-size: 25px;
 }
 
-.logo:hover {
-  border-radius: 20px;
-  box-shadow: 0 0 0.313em 0.313em rgb(86, 46, 128);
-  background-color: #2f2841;
+@media(hover:hover){
+  .logo:hover {
+    border-radius: 20px;
+    box-shadow: 0 0 0.313em 0.313em rgb(86, 46, 128);
+    background-color: #2f2841;
+  }
 }
 
 .image-150 {
@@ -201,11 +203,15 @@ footer {
   font-size: 20px;
 }
 
-.footer-github:hover, .footer-linkedin:hover, .footer-telefone:hover, .footer-email:hover {
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 5px rgb(86, 46, 128);
-  background-color: #2f2841;
+
+
+@media(hover:hover){
+  .footer-github:hover, .footer-linkedin:hover, .footer-telefone:hover, .footer-email:hover {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(86, 46, 128);
+    background-color: #2f2841;
+  }
 }
 
 .footer-text {
@@ -220,6 +226,9 @@ footer {
 #footer-contato {
   text-align: center;
 }
+
+
+
 
 /* CELULAR */
 
@@ -364,6 +373,8 @@ header{
 .footer-email{
   margin-bottom: 35px;
 }
+
+
 
 
 }
@@ -527,6 +538,7 @@ margin: 15px;
     margin-bottom: 350px;
   }
 }
+
 
 
 
