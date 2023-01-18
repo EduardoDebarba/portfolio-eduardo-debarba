@@ -308,6 +308,14 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
 /* CELULAR */
 
 @media (max-width: 450px) {
@@ -336,11 +344,6 @@ header{
 #first-section {
   margin: 15px;
 }
-
-
-
-
-
 
   .image-cartoon{
     display: none;
@@ -424,6 +427,32 @@ header{
   margin-bottom: 700px;
 }
 
+.texto-fundo{
+  width: 350px;
+}
+
+.projeto{
+  height: 800px;
+}
+
+#title-projeto{
+  margin-top: 850px;
+}
+
+#fundo1{
+  background-image: url(./images/fundo-celular-projeto1.png);
+  background-size: cover;
+}
+
+#fundo2{
+  background-image: url(./images/fundo-celular-projeto2.png);
+  background-size: cover;
+}
+
+footer{
+  margin-top: 2400px;
+}
+
 .footer-contato{
     display: flex;
     flex-direction: column;
@@ -452,6 +481,19 @@ header{
   margin-bottom: 35px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -585,6 +627,10 @@ margin: 15px;
   margin-bottom: 700px;
 }
 
+#title-projeto{
+  margin-top: 850px;
+}
+
 .footer-contato{
     display: flex;
     flex-direction: column;
@@ -610,7 +656,8 @@ margin: 15px;
   }
 
   footer{
-    margin-bottom: 350px;
+    margin-top: 1600px;
+
   }
 }
 
