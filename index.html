@@ -18,13 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Portifólio | Eduardo Debarba</title>
   </head>
   <body>
     <header>
       <div>
-        <p id="header-nome"><strong>Eduardo Debarba</strong></p>
+        <p id="header-nome"><strong> Eduardo Debarba</strong></p>
       </div>
       <nav class="header-itens">
         <a href="#first-section"><strong>Inicio</strong></a>
@@ -36,7 +37,7 @@
     </header>
 
     <main>
-      <section id="first-section">
+      <section id="first-section" data-aos="fade-down">
         <div class="text-pessoal">
           <h1>Olá, eu sou o <span id="span-nome">Eduardo Debarba</span></h1>
           <h4>Desenvolvedor Front-End</h4>
@@ -63,7 +64,7 @@
           <img class="image-cartoon" src="./images/code-typing-animate.svg" />
         </div>
       </section>
-      <section id="sobre-mim">
+      <section id="sobre-mim" data-aos="fade-left">
         <div class="texto-sobre-mim">
           <h2>Sobre Mim</h2>
           <p>
@@ -84,7 +85,7 @@
         </div>
       </section>
 
-      <section id="habilidades">
+      <section id="habilidades" data-aos="fade-up">
         <h2>Habilidades</h2>
         <br />
         <div class="logo-habilidades">
@@ -181,7 +182,7 @@
       </section>
 
       <h2 id="title-projeto">Projetos</h2>
-      <section id="projetos">
+      <section id="projetos" data-aos="fade-left">
         <div class="projeto">
           <div id="fundo1"></div>
           <div class="texto-fundo">
@@ -301,10 +302,10 @@
       </section>
     </main>
 
-    <footer>
+    <footer data-aos="fade-down">
       <h2 id="footer-contato">Contato</h2>
       <div class="footer-contato">
-        <a href="mailto:eduardodsdev@gmail.com"
+        <a class="footer-redes" href="mailto:eduardodsdev@gmail.com"
           ><div class="footer-email">
             <img
               class="footer-image"
@@ -318,7 +319,7 @@
           </div></a
         >
 
-        <a target="_blank" href="https://wa.me/5554996866777"
+        <a class="footer-redes" target="_blank" href="https://wa.me/5554996866777"
           ><div class="footer-telefone">
             <img
               class="footer-image"
@@ -333,7 +334,7 @@
         >
 
         <a
-          target="_blank"
+        class="footer-redes" target="_blank"
           href="https://www.linkedin.com/in/eduardo-debarba-216836245/"
           ><div class="footer-linkedin">
             <img
@@ -348,7 +349,7 @@
           </div></a
         >
 
-        <a target="_blank" href="https://github.com/EduardoDebarba">
+        <a class="footer-redes" target="_blank" href="https://github.com/EduardoDebarba">
           <div class="footer-github">
             <div>
               <img
@@ -365,5 +366,9 @@
         >
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

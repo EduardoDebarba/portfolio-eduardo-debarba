@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -47,6 +53,7 @@ h1 {
   font-size: 4.375em;
   padding: 0;
   margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 #span-nome {
@@ -74,6 +81,7 @@ h4 {
 .button-inicio svg {
   margin-right: 0.5em;
 }
+
 @media(hover:hover){
   .button-inicio:hover {
     cursor: pointer;
@@ -99,6 +107,7 @@ h4 {
 }
 
 h2 {
+  margin-bottom: 20px;
   text-align: center;
   font-size: 50px;
 }
@@ -110,7 +119,7 @@ h2 {
 
 #habilidades {
   flex-direction: column;
-  padding: 9.375em;
+  padding: 8.375em;
   display: flex;
   justify-content: space-around;
 }
@@ -123,9 +132,7 @@ h2 {
   height: 43.75em;
   border-radius: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 3.125em;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -134,7 +141,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 0.938em;
   height: 12em;
   width: 12em;
   font-size: 25px;
@@ -150,18 +156,22 @@ h2 {
 
 .image-150 {
   width: 6em;
+  padding-bottom: 10px;
 }
 
 .image-130 {
   width: 5.2em;
+  padding-bottom: 10px;
 }
 
 .image-120 {
-  width: 4.8em;
+  width: 5.9em;
+  padding-bottom: 10px;
 }
 
 .image-110 {
   width: 4.4em;
+  padding-bottom: 10px;
 }
 
 #projetos {
@@ -170,7 +180,7 @@ h2 {
   height: 1400px;
   padding: 80px;
   justify-content: space-around;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   flex-wrap: wrap;
 }
 
@@ -281,8 +291,6 @@ footer {
   font-size: 20px;
 }
 
-
-
 @media(hover:hover){
   .footer-github:hover, .footer-linkedin:hover, .footer-telefone:hover, .footer-email:hover {
     padding: 20px;
@@ -305,24 +313,178 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 1659px) {
+  footer{
+    margin-top: 1600px;
+  }
+}
+
+@media(max-width: 1296px){
+  #header-nome{
+    padding-left: 1em;
+  }
+
+  .header-itens{
+    padding-right: 2.3em;
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+ .image-cartoon{
+  width: 400px;
+  padding-top: 90px;
+ }
+
+ #header-nome {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-itens {
+font-size: 28px;
+display: flex;
+justify-content: space-around;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+header{
+height: 50px;
+}
+
+#first-section {
+margin: 15px;
+}
+
+.text-pessoal{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  #first-section{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+  h4{
+    font-size: 20px;
+  }
+
+  #sobre-mim{
+    padding: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .foto{
+    width: 300px;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  #habilidades{
+    padding: 0;
+  }
+
+  .logo{
+    position: relative;
+    width: 18rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-habilidades {
+    height: 43.75em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-150 {
+  width: 5em;
+}
+
+.image-130 {
+  width: 4.2em;
+}
+
+.image-120 {
+  width: 5em;
+}
+
+.image-110 {
+  width: 4.1em;
+}
+
+#habilidades{
+  margin-bottom: 700px;
+}
+
+#title-projeto{
+  margin-top: 850px;
+}
+
+.footer-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-email, .footer-linkedin, .footer-telefone, .footer-github{
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 
 
+.footer-telefone, .footer-linkedin{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+  
+  .footer-email{
+    margin-bottom: 35px;
+  }
 
+  footer{
+    margin-top: 1600px;
+  }
+} 
 
+ @media (max-width: 450px) {
 
-
-
-
-
-
-
-/* CELULAR */
-
-@media (max-width: 450px) {
-
-  /* Provisório */
-
-  #header-nome {
+ #header-nome {
     display: none;
     padding: 0;
     margin: 0;
@@ -345,27 +507,27 @@ header{
   margin: 15px;
 }
 
-  .image-cartoon{
+.image-cartoon{
     display: none;
-  }
+}
 
-  .text-pessoal{
+.text-pessoal{
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
-  }
+}
 
-  h1{
+h1{
     font-size: 45px;
     text-align: center;
 }
 
-  h4{
+h4{
     font-size: 20px;
-  }
+}
 
   #sobre-mim{
     padding: 35px;
@@ -481,187 +643,3 @@ footer{
   margin-bottom: 35px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* TABLET */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    
- .image-cartoon{
-  width: 400px;
-  padding-top: 90px;
- }
-
- /* Provisório */
-
- #header-nome {
-  display: none;
-  padding: 0;
-  margin: 0;
-}
-
-.header-itens {
-font-size: 28px;
-display: flex;
-justify-content: space-around;
-padding: 0;
-margin: 0;
-width: 100%;
-}
-
-header{
-height: 50px;
-}
-
-#first-section {
-margin: 15px;
-}
-
-  .text-pessoal{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  #first-section{
-    padding: 0;
-    margin: 0;
-    margin-top: 50px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  h1{
-    font-size: 50px;
-    text-align: center;
-}
-
-  h4{
-    font-size: 20px;
-  }
-
-  #sobre-mim{
-    padding: 100px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .foto{
-    width: 300px;
-  }
-
-  h2{
-    text-align: center;
-    font-size: 35px;
-  }
-
-  p{
-    font-size: 16px;
-  }
-
-  #habilidades{
-    padding: 0;
-  }
-
-  .logo{
-    position: relative;
-    /* text-align: center; */
-    width: 18rem;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo-habilidades {
-    height: 43.75em;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-evenly; */
-    /* padding-top: 3.125em; */
-    /* flex-wrap: wrap; */
-  }
-
-  .image-150 {
-  width: 5em;
-}
-
-.image-130 {
-  width: 4.2em;
-}
-
-.image-120 {
-  width: 5em;
-}
-
-.image-110 {
-  width: 4.1em;
-}
-
-#habilidades{
-  margin-bottom: 700px;
-}
-
-#title-projeto{
-  margin-top: 850px;
-}
-
-.footer-contato{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-email, .footer-linkedin, .footer-telefone, .footer-github{
-  padding: 0;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.footer-telefone, .footer-linkedin{
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-  
-  .footer-email{
-    margin-bottom: 35px;
-  }
-
-  footer{
-    margin-top: 1600px;
-
-  }
-}
-
-
-
-
-
