@@ -32,6 +32,12 @@ header {
   word-spacing: 35px;
 }
 
+@media (hover: hover) {
+  .hd:hover {
+    text-decoration: underline;
+  }
+}
+
 #first-section {
   margin-top: 6.25em;
   display: flex;
@@ -81,6 +87,7 @@ h4 {
     cursor: pointer;
     border-radius: 20em;
     box-shadow: 0 0 0.3125em 0.3125em rgb(86, 46, 128);
+    transition: 0.2s;
   }
 }
 
@@ -109,6 +116,7 @@ h2 {
 .foto {
   width: 21.875em;
   border-radius: 20px;
+  box-shadow: 0px 10px 25px #00000056;
 }
 
 #habilidades {
@@ -116,6 +124,7 @@ h2 {
   padding: 8.375em;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 400px;
 }
 
 #habilidades > h2 {
@@ -131,6 +140,10 @@ h2 {
 }
 
 .logo {
+  border-radius: 20px;
+  background-color: #2f2841;
+  box-shadow: 0px 8px 20px #00000056;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,30 +155,33 @@ h2 {
 
 @media (hover: hover) {
   .logo:hover {
-    border-radius: 20px;
     box-shadow: 0 0 0.313em 0.313em rgb(86, 46, 128);
-    background-color: #2f2841;
+    transition: 0.2s;
   }
 }
 
 .image-150 {
   width: 6em;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .image-130 {
   width: 5.2em;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .image-120 {
   width: 5.9em;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .image-110 {
   width: 4.4em;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 #projetos {
@@ -264,22 +280,36 @@ footer {
 }
 
 .footer-email {
-  margin-right: 4.5em;
-  padding: 20px;
+  border-radius: 20px;
+  background-color: #2f2841;
+  box-shadow: 0px 8px 20px #00000056;
+  margin: 20px; 
+  padding: 30px;
   text-align: center;
   font-size: 20px;
 }
 
 .footer-linkedin,
 .footer-telefone {
-  margin-right: 4.5em;
-  padding: 20px;
+  width: 270px;
+  height: 275px;
+  border-radius: 20px;
+  background-color: #2f2841;
+  box-shadow: 0px 8px 20px #00000056;
+  margin: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 20px;
 }
 
 .footer-github {
-  padding: 20px;
+  width: 270px;
+  height: 275px;
+  border-radius: 20px;
+  background-color: #2f2841;
+  box-shadow: 0px 8px 20px #00000056;
+  margin: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 20px;
 }
@@ -289,10 +319,9 @@ footer {
   .footer-linkedin:hover,
   .footer-telefone:hover,
   .footer-email:hover {
-    padding: 20px;
-    border-radius: 20px;
     box-shadow: 0 0 5px 5px rgb(86, 46, 128);
     background-color: #2f2841;
+    transition: 0.2s;
   }
 }
 
@@ -301,6 +330,7 @@ footer {
 }
 
 .footer-image {
+  margin-top: 20px;
   width: 90px;
   border-radius: 20px;
 }
