@@ -485,7 +485,11 @@ footer {
 
   .footer-contato {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
 
   .footer-email,
@@ -500,20 +504,10 @@ footer {
     flex-direction: column;
   }
 
-  .footer-telefone,
-  .footer-linkedin {
-    margin-top: 35px;
-    margin-bottom: 35px;
-  }
-
   .footer-email {
-    margin-bottom: 35px;
-    padding: 50px;
+    width: 265px;
+    height: 275px;
     
-  }
-
-  .footer-github{
-    margin-top: 30px;
   }
 
   footer {
@@ -602,7 +596,7 @@ footer {
   .logo {
     position: relative;
     width: 12rem;
-    padding: 0;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -688,6 +682,8 @@ footer {
 
   .footer-github{
     padding: 0px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
