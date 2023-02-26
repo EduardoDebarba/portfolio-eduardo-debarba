@@ -577,7 +577,7 @@ footer {
 
   h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
   }
 
   p {
@@ -586,11 +586,12 @@ footer {
 
   #habilidades > h2 {
     margin-bottom: 0;
+    font-size: 45px;
   }
 
   #habilidades {
     padding: 0;
-    padding-bottom: 1700px;
+    padding-bottom: 2200px;
   }
 
   .logo {
