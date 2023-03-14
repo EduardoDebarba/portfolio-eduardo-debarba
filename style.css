@@ -172,6 +172,7 @@ h2 {
   height: 12em;
   width: 12em;
   font-size: 25px;
+  
 }
 
 @media (hover: hover) {
@@ -362,22 +363,50 @@ footer {
 }
 
 @media (max-width: 1659px) {
-  footer {
+
+  footer{
+    margin-top: 1500px;
+  }
+}
+
+
+@media (min-width:1223px) and (max-width: 1485px) {
+
+  #sobre-mim{
+    flex-wrap: wrap
+  }
+
+  .container{
+    width: 100vw;
+  }
+
+  #title-projeto{
+    margin-top: 1000px;
+  }
+
+  footer{
     margin-top: 1600px;
   }
-}
 
-@media (max-width: 1296px) {
-  #header-nome {
-    padding-left: 1em;
+  .footer-redes{
+    flex-wrap: wrap;
   }
 
-  .header-itens {
-    padding-right: 2.3em;
+  .footer-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.688em;
+    flex-wrap: wrap;
   }
+
+  
 }
 
-@media (min-width: 649px) and (max-width: 1024px) {
+
+
+
+@media (min-width: 649px) and (max-width: 1224px) {
   nav {
     display: none;
   }
@@ -723,8 +752,8 @@ footer {
 
   .logo {
     position: relative;
-    width: 12rem;
-    padding: 30px;
+    width: 22rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
