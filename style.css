@@ -144,8 +144,7 @@ h2 {
   flex-direction: column;
   padding: 8.375em;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 400px;
+  justify-content: space-around
 }
 
 #habilidades > h2 {
@@ -153,7 +152,6 @@ h2 {
 }
 
 .logo-habilidades {
-  height: 43.75em;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -209,10 +207,8 @@ h2 {
 #projetos {
   text-align: center;
   display: flex;
-  height: 1400px;
   padding: 80px;
   justify-content: space-around;
-  margin-bottom: 150px;
   flex-wrap: wrap;
 }
 
@@ -362,14 +358,6 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 1659px) {
-
-  footer{
-    margin-top: 1500px;
-  }
-}
-
-
 @media (min-width:1223px) and (max-width: 1485px) {
 
   #sobre-mim{
@@ -378,14 +366,6 @@ footer {
 
   .container{
     width: 100vw;
-  }
-
-  #title-projeto{
-    margin-top: 1000px;
-  }
-
-  footer{
-    margin-top: 1600px;
   }
 
   .footer-redes{
@@ -399,12 +379,7 @@ footer {
     margin-top: 6.688em;
     flex-wrap: wrap;
   }
-
-  
 }
-
-
-
 
 @media (min-width: 649px) and (max-width: 1224px) {
   nav {
@@ -427,7 +402,6 @@ footer {
     margin-right: 20px;
   }
 
-  /* fullscreen */
   .menu-section.on {
     position: absolute;
     top: 0;
@@ -522,7 +496,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 500px;
   }
 
   .foto {
@@ -540,7 +513,6 @@ footer {
 
   #habilidades {
     padding: 10px;
-    height: 0;
   }
 
   .logo {
@@ -555,7 +527,6 @@ footer {
   }
 
   .logo-habilidades {
-    height: 43.75em;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -579,11 +550,7 @@ footer {
   }
 
   #habilidades {
-    margin-bottom: 1100px;
-  }
-
-  #title-projeto {
-    margin-top: 850px;
+    margin-bottom: 150px;
   }
 
   .footer-contato {
@@ -611,10 +578,6 @@ footer {
     width: 265px;
     height: 275px;
   }
-
-  footer {
-    margin-top: 1600px;
-  }
 }
 
 @media (max-width: 650px) {
@@ -638,7 +601,6 @@ footer {
     margin-right: 20px;
   }
 
-  /* fullscreen */
   .menu-section.on {
     position: absolute;
     top: 0;
@@ -747,7 +709,7 @@ footer {
 
   #habilidades {
     padding: 0;
-    padding-bottom: 2200px;
+    /* padding-bottom: 2200px; */
   }
 
   .logo {
@@ -777,19 +739,11 @@ footer {
   }
 
   #habilidades {
-    margin-bottom: 700px;
-  }
-
-  .texto-fundo {
-    width: 350px;
+    margin-bottom: 100px;
   }
 
   .projeto {
     height: 800px;
-  }
-
-  #title-projeto {
-    margin-top: 850px;
   }
 
   #fundo1 {
@@ -800,10 +754,6 @@ footer {
   #fundo2 {
     background-image: url(./images/fundo-celular-projeto2.png);
     background-size: cover;
-  }
-
-  footer {
-    margin-top: 2400px;
   }
 
   .footer-contato {
