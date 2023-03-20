@@ -620,8 +620,8 @@ footer {
 
   .menu-section.on .menu-toggle {
     position: absolute;
-    right: 25px;
-    top: 15px;
+    right: 35px;
+    top: 25px;
   }
 
   .menu-section.on .menu-toggle .one {
@@ -709,7 +709,6 @@ footer {
 
   #habilidades {
     padding: 0;
-    /* padding-bottom: 2200px; */
   }
 
   .logo {
@@ -742,8 +741,13 @@ footer {
     margin-bottom: 100px;
   }
 
+  #projetos{
+    padding: 0;
+  }
+
   .projeto {
     height: 800px;
+    width: 90%;
   }
 
   #fundo1 {
