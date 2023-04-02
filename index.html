@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portifólio | Eduardo Debarba</title>
   </head>
   <body>
@@ -53,7 +54,7 @@
       </div>
     </header>
     <main id="top">
-      <section id="first-section">
+      <section class="scroll" id="first-section">
         <div class="text-pessoal">
           <h1>Olá, eu sou o <span id="span-nome">Eduardo Debarba</span></h1>
           <h4>Desenvolvedor Front-End</h4>
@@ -80,7 +81,7 @@
           <img class="image-cartoon" src="./images/code-typing-animate.svg" />
         </div>
       </section>
-      <section id="sobre-mim">
+      <section class="scroll" id="sobre-mim">
         <div class="texto-sobre-mim">
           <h2>Sobre Mim</h2>
           <p>
@@ -101,7 +102,7 @@
         </div>
       </section>
 
-      <section id="habilidades">
+      <section class="scroll" id="habilidades">
         <h2>Habilidades</h2>
         <br />
         <div class="logo-habilidades">
@@ -157,15 +158,6 @@
               alt="logo-sass"
             />
             <p>Sass</p>
-          </div>
-
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./images/icons_skills/node-js.svg"
-              alt="logo-nodejs"
-            />
-            <p>NodeJs</p>
           </div>
 
           <div class="logo">
@@ -281,10 +273,9 @@
         <div class="projeto">
           <div id="fundo4"></div>
           <div class="texto-fundo">
-            <div class="titulo-projetos">Em Breve</div>
+            <div class="titulo-projetos">Buildcon Houses</div>
             <div class="texto-projetos">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              est illum, eligendi saepe earum voluptate quasi vel voluptatum
+              Projeto criado para apresentar uma empresa fictícia de construção de casas e prédios. Utilizando HTML, CSS e JavaScript
             </div>
 
             <div class="button-projeto">
@@ -301,9 +292,64 @@
             </div>
           </div>
         </div>
+
+
+        <div class="more-projects">
+          <div class="projeto">
+            <div id="fundo5"></div>
+            <div class="texto-fundo">
+              <div class="titulo-projetos">Em Breve</div>
+              <div class="texto-projetos">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                est illum, eligendi saepe earum voluptate quasi vel voluptatum
+              </div>
+  
+              <div class="button-projeto">
+                <a target="_blank" href=""
+                  ><button class="button-inicio">
+                    <span>Ver no Github</span>
+                  </button></a
+                >
+                <a target="_blank" href=""
+                  ><button class="button-inicio">
+                    <span>Ver na Web</span>
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="projeto">
+            <div id="fundo6"></div>
+            <div class="texto-fundo">
+              <div class="titulo-projetos">Em Breve</div>
+              <div class="texto-projetos">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                est illum, eligendi saepe earum voluptate quasi vel voluptatum
+              </div>
+  
+              <div class="button-projeto">
+                <a target="_blank" href=""
+                  ><button class="button-inicio">
+                    <span>Ver no Github</span>
+                  </button></a
+                >
+                <a target="_blank" href=""
+                  ><button class="button-inicio">
+                    <span>Ver na Web</span>
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+        </div>
       </section>
+      <button onclick="btnClick()" id="btn-show" class="button-inicio">
+        <span>Mostrar mais/menos Projetos</span>
+      </button>
     </main>
-    <footer>
+    <footer class="scroll">
       <h2 id="footer-contato">Contato</h2>
       <div class="footer-contato">
         <a class="footer-redes" href="mailto:eduardodsdev@gmail.com"
