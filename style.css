@@ -1,10 +1,20 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --main-color: #0ef
+
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Saira Semi Condensed", Arial, Helvetica, sans-serif;
-  background-color: #201b2c;
-  color: white;
   font-size: 1.6rem;
+  background-color: var(--bg-color);
+  color: #fff;
 }
 
 html {
@@ -13,17 +23,16 @@ html {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 header {
   height: 5em;
-  background: linear-gradient(225deg, hsl(275, 52%, 37%) 40%, #291972 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0em;
+  background-color: var(--bg-color);
 }
 
 header .container {
@@ -36,7 +45,6 @@ header .container {
 
 header .container h3 {
   font-size: 3.8rem;
-  text-transform: uppercase;
 }
 
 header nav ul {
@@ -49,38 +57,38 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: white;
-  text-transform: uppercase;
   font-size: 2.8rem;
   padding: 2.4rem;
   transition: all 250ms linear 0s;
   font-weight: 700;
+  color: var(--text-color);
+}
+
+nav li a:hover{
+  color: var(--main-color);
 }
 
 #first-section {
-  margin-top: 6.25em;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10rem;
+  line-height: 8rem;
+  height: 92vh;
 }
 
-.text-pessoal {
-  margin-left: 2.5em;
-}
 
-h1 {
-  font-size: 4.375em;
-  padding: 0;
-  margin-bottom: 0;
-  margin-bottom: 15px;
+.text-pessoal h1{
+  font-size: 5.2rem;
 }
 
 #span-nome {
-  color: rgba(77, 54, 208, 1);
+  font-size: 7.0rem;
+  color: var(--main-color);
 }
 
 h4 {
-  font-size: 2.1875em;
+  font-size: 2.5875em;
   line-height: 0px;
   margin-bottom: 70px;
 }
@@ -88,13 +96,14 @@ h4 {
 .button-inicio {
   display: flex;
   align-items: center;
-  font-size: 1.0625em;
+  font-size: 1.625rem;
   padding: 0.8em 1.5em 0.8em 1.2em;
-  color: white;
-  background: linear-gradient(225deg, #682e91 40%, #291972 100%);
+  background-color: var(--main-color);
   border: none;
   letter-spacing: 0.05em;
   border-radius: 20em;
+  color: var(--second-bg-color);
+  font-weight: 600;
 }
 
 .button-inicio svg {
@@ -105,19 +114,45 @@ h4 {
   .button-inicio:hover {
     cursor: pointer;
     border-radius: 20em;
-    box-shadow: 0 0 0.3125em 0.3125em rgb(86, 46, 128);
+    box-shadow: 0 0 0.3125em 0.3125em #5386A6;
     transition: 0.2s;
   }
 }
 
 .image-cartoon {
-  width: 41.625em;
+  width: 35vw;
+}
+
+.social-media{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  padding: 15px;
+}
+
+.text-pessoal h4{
+  margin-bottom: 2rem;
+}
+
+#logo-github, #logo-linkedin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #sobre-mim {
   padding: 9.375em;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  background: var(--second-bg-color);
 }
 
 .texto-sobre-mim {
@@ -133,10 +168,14 @@ h2 {
 }
 
 .foto {
-  width: 22.875em;
+  width: 25vw;
   border-radius: 20px;
   box-shadow: 0px 10px 25px #00000056;
   margin-top: 60px;
+}
+
+.texto-sobre-mim span{
+  color: var(--main-color);
 }
 
 #habilidades {
@@ -144,6 +183,10 @@ h2 {
   padding: 8.375em;
   display: flex;
   justify-content: space-around
+}
+
+#habilidades span{
+  color: var(--main-color);
 }
 
 #habilidades > h2 {
@@ -159,7 +202,7 @@ h2 {
 
 .logo {
   border-radius: 20px;
-  background-color: #2f2841;
+  background-color: var(--second-bg-color);
   box-shadow: 0px 8px 20px #00000056;
   margin: 20px;
   display: flex;
@@ -174,8 +217,7 @@ h2 {
 
 @media (hover: hover) {
   .logo:hover {
-    box-shadow: 0 0 0.313em 0.313em rgb(86, 46, 128);
-    transition: 0.2s;
+    transform: scale(1.02);
   }
 }
 
@@ -203,6 +245,16 @@ h2 {
   margin-top: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
 #projetos {
   text-align: center;
   display: flex;
@@ -214,12 +266,16 @@ h2 {
 }
 
 .projeto {
-  background-color: #2f2841;
+  /* background-color: #2f2841; */
   width: 750px;
   height: 600px;
   border-radius: 20px;
   box-shadow: 0px 10px 40px #00000056;
   margin-bottom: 150px;
+}
+
+#title-projeto span{
+  color: var(--main-color);
 }
 
 .titulo-projetos {
@@ -298,91 +354,79 @@ h2 {
   justify-content: space-evenly;
 }
 
-.more-projects{
+
+.contact-section{
+  margin-bottom: 10rem;
+}
+
+.contact-section h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 2rem;
+}
+
+.contact-section p {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  gap: 50px;
-  flex-wrap: wrap;
-  display: none;
 }
 
-#btn-show{
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.feed-form input {
+  height: 60px;
+  border-radius: 5px;
+  background-color: var(--second-bg-color);
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-section .button-inicio{
+  width: 30%;
   margin: 0 auto;
 }
 
-footer {
-  margin-bottom: 5.438em;
-  margin-top: 250px;
+#contact{
+  margin: auto;
+  color: var(--bg-color);
 }
 
-.footer-contato {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 6.688em;
+.contact-section span{
+  color: var(--main-color);
 }
 
-.footer-email {
-  border-radius: 20px;
-  background-color: #2f2841;
-  box-shadow: 0px 8px 20px #00000056;
-  margin: 20px;
-  padding: 30px;
+
+
+#txt {
+  height: 210px;
+}
+
+footer{
   text-align: center;
-  font-size: 20px;
+  padding: 2rem 9%;
+  background-color: var(--second-bg-color);
 }
 
-.footer-linkedin,
-.footer-telefone {
-  width: 270px;
-  height: 275px;
-  border-radius: 20px;
-  background-color: #2f2841;
-  box-shadow: 0px 8px 20px #00000056;
-  margin: 20px;
-  padding: 30px;
-  text-align: center;
-  font-size: 20px;
-}
 
-.footer-github {
-  width: 270px;
-  height: 275px;
-  border-radius: 20px;
-  background-color: #2f2841;
-  box-shadow: 0px 8px 20px #00000056;
-  margin: 20px;
-  padding: 30px;
-  text-align: center;
-  font-size: 20px;
-}
 
-@media (hover: hover) {
-  .footer-github:hover,
-  .footer-linkedin:hover,
-  .footer-telefone:hover,
-  .footer-email:hover {
-    box-shadow: 0 0 5px 5px rgb(86, 46, 128);
-    background-color: #2f2841;
-    transition: 0.2s;
-  }
-}
 
-.footer-text {
-  font-size: 25px;
-}
 
-.footer-image {
-  margin-top: 20px;
-  width: 90px;
-  border-radius: 20px;
-}
-
-#footer-contato {
-  text-align: center;
-}
 
 @media (min-width:1223px) and (max-width: 1485px) {
 

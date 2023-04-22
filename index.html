@@ -18,6 +18,11 @@
       href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portifólio | Eduardo Debarba</title>
   </head>
@@ -56,9 +61,15 @@
     <main id="top">
       <section class="scroll" id="first-section">
         <div class="text-pessoal">
-          <h1>Olá, eu sou o <span id="span-nome">Eduardo Debarba</span></h1>
+          <h1>Olá, eu sou o <br> <span id="span-nome">Eduardo Debarba</span></h1>
           <h4>Desenvolvedor Front-End</h4>
 
+          <div class="social-media">
+            <a id="logo-github" href=""><img src="./images/icons8-github-64.png" alt=""></a>
+          </div>
+          <div class="social-media">
+            <a id="logo-linkedin" href=""><img src="./images/icons8-linkedin-circundado-64.png" alt=""></a>
+          </div>
           <a href="./CurriculoEduardoDebarba.pdf" download>
             <button class="button-inicio">
               <svg
@@ -82,8 +93,11 @@
         </div>
       </section>
       <section class="scroll" id="sobre-mim">
+        <div>
+          <img class="foto" src="./images/fotoPerfil.jpg" alt="foto-pessoal" />
+        </div>
         <div class="texto-sobre-mim">
-          <h2>Sobre Mim</h2>
+          <h2>Sobre <span>Mim</span></h2>
           <p>
             Olá! Meu nome é Eduardo Debarba, tenho 21 anos, sou um desenvolvedor
             Front-End. Atualmente, estou no 6° semestre do curso de Sistemas de
@@ -97,13 +111,10 @@
             tempo.
           </p>
         </div>
-        <div>
-          <img class="foto" src="./images/fotoPerfil.jpg" alt="foto-pessoal" />
-        </div>
       </section>
 
       <section class="scroll" id="habilidades">
-        <h2>Habilidades</h2>
+        <h2>Minhas <span>Habilidades</span></h2>
         <br />
         <div class="logo-habilidades">
           <div class="logo">
@@ -180,7 +191,7 @@
         </div>
       </section>
 
-      <h2 id="title-projeto">Projetos</h2>
+      <h2 id="title-projeto">Meus <span>Projetos</span></h2>
       <section id="projetos">
         <div class="projeto">
           <div id="fundo1"></div>
@@ -292,135 +303,33 @@
             </div>
           </div>
         </div>
-
-
-        <div class="more-projects">
-          <div class="projeto">
-            <div id="fundo5"></div>
-            <div class="texto-fundo">
-              <div class="titulo-projetos">Em Breve</div>
-              <div class="texto-projetos">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                est illum, eligendi saepe earum voluptate quasi vel voluptatum
-              </div>
-  
-              <div class="button-projeto">
-                <a target="_blank" href=""
-                  ><button class="button-inicio">
-                    <span>Ver no Github</span>
-                  </button></a
-                >
-                <a target="_blank" href=""
-                  ><button class="button-inicio">
-                    <span>Ver na Web</span>
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-  
-          <div class="projeto">
-            <div id="fundo6"></div>
-            <div class="texto-fundo">
-              <div class="titulo-projetos">Em Breve</div>
-              <div class="texto-projetos">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                est illum, eligendi saepe earum voluptate quasi vel voluptatum
-              </div>
-  
-              <div class="button-projeto">
-                <a target="_blank" href=""
-                  ><button class="button-inicio">
-                    <span>Ver no Github</span>
-                  </button></a
-                >
-                <a target="_blank" href=""
-                  ><button class="button-inicio">
-                    <span>Ver na Web</span>
-                  </button></a
-                >
-              </div>
             </div>
           </div>
 
         </div>
       </section>
-      <button onclick="btnClick()" id="btn-show" class="button-inicio">
-        <span>Mostrar mais/menos Projetos</span>
-      </button>
+      <section class="contact-section scroll">
+        <h2>Entre em <span>Contato</span></h2>
+        <div class="form-contact">
+          <form id="consultation-form" class="feed-form" action="#">
+            <input required="" placeholder="Nome Completo" type="text" />
+            <input name="email" required="" placeholder="Email" />
+            <input
+              id="txt"
+              name="message"
+              required=""
+              placeholder="Mensagem"
+              type="email"
+            />
+            <button class="button-inicio">
+              <span id="contact">Enviar Mensagem</span>
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer class="scroll">
-      <h2 id="footer-contato">Contato</h2>
-      <div class="footer-contato">
-        <a class="footer-redes" href="mailto:eduardodsdev@gmail.com"
-          ><div class="footer-email">
-            <img
-              class="footer-image"
-              src="./images/email_footer.png"
-              alt="email"
-            />
-            <div class="footer-text">
-              <p>E-mail</p>
-              <p>eduardodsdev@gmail.com</p>
-            </div>
-          </div></a
-        >
-
-        <a
-          class="footer-redes"
-          target="_blank"
-          href="https://wa.me/5554996866777"
-          ><div class="footer-telefone">
-            <img
-              class="footer-image"
-              src="./images/telefone_footer.png"
-              alt="telefone"
-            />
-            <div class="footer-text">
-              <p>Telefone</p>
-              <p>(54) 99686-6777</p>
-            </div>
-          </div></a
-        >
-
-        <a
-          class="footer-redes"
-          target="_blank"
-          href="https://www.linkedin.com/in/eduardo-debarba-216836245/"
-          ><div class="footer-linkedin">
-            <img
-              class="footer-image"
-              src="./images/linkedin_footer.png"
-              alt="linkedin"
-            />
-            <div class="footer-text">
-              <p>Linkedin</p>
-              <p>@eduardodebarba</p>
-            </div>
-          </div></a
-        >
-
-        <a
-          class="footer-redes"
-          target="_blank"
-          href="https://github.com/EduardoDebarba"
-        >
-          <div class="footer-github">
-            <div>
-              <img
-                class="footer-image"
-                src="./images/github_footer.png"
-                alt="github"
-              />
-            </div>
-            <div class="footer-text">
-              <p>Github</p>
-              <p>@eduardodebarba</p>
-            </div>
-          </div></a
-        >
-      </div>
-    </footer>
+    <footer>
+      <p>Copyright 2023 by Eduardo Debarba | Todos os Direitos Reservados</p>
     <script src="./script.js"></script>
   </body>
 </html>
