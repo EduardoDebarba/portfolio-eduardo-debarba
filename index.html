@@ -65,10 +65,10 @@
           <h4>Desenvolvedor Front-End</h4>
 
           <div class="social-media">
-            <a id="logo-github" href=""><img src="./images/icons8-github-64.png" alt=""></a>
+            <a id="logo-github" href="https://github.com/EduardoDebarba" target="_blank"><img src="./images/icons8-github-64.png" alt=""></a>
           </div>
           <div class="social-media">
-            <a id="logo-linkedin" href=""><img src="./images/icons8-linkedin-circundado-64.png" alt=""></a>
+            <a id="logo-linkedin" href="https://www.linkedin.com/in/eduardo-debarba-216836245/" target="_blank"><img src="./images/icons8-linkedin-circundado-64.png" alt=""></a>
           </div>
           <a href="./CurriculoEduardoDebarba.pdf" download>
             <button class="button-inicio">
@@ -93,7 +93,7 @@
         </div>
       </section>
       <section class="scroll" id="sobre-mim">
-        <div>
+        <div id="div-photo">
           <img class="foto" src="./images/fotoPerfil.jpg" alt="foto-pessoal" />
         </div>
         <div class="texto-sobre-mim">
@@ -303,15 +303,63 @@
             </div>
           </div>
         </div>
+
+        <!-- Projeto 5 -->
+        <div class="projeto">
+          <div id="fundo5"></div>
+          <div class="texto-fundo">
+            <div class="titulo-projetos">Em Breve</div>
+            <div class="texto-projetos">
+              Projeto em Desenvolvimento
+            </div>
+
+            <div class="button-projeto">
+              <a target="_blank" href="#"
+                ><button class="button-inicio">
+                  <span>Ver no Github</span>
+                </button></a
+              >
+              <a target="_blank" href="#"
+                ><button class="button-inicio">
+                  <span>Ver na Web</span>
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 6 -->
+        <div class="projeto">
+          <div id="fundo6"></div>
+          <div class="texto-fundo">
+            <div class="titulo-projetos">Em Breve</div>
+            <div class="texto-projetos">
+              Projeto em Desenvolvimento
+            </div>
+
+            <div class="button-projeto">
+              <a target="_blank" href="#"
+                ><button class="button-inicio">
+                  <span>Ver no Github</span>
+                </button></a
+              >
+              <a target="_blank" href="#"
+                ><button class="button-inicio">
+                  <span>Ver na Web</span>
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
             </div>
           </div>
 
         </div>
       </section>
-      <section class="contact-section scroll">
+      <section class="contact-section">
         <h2>Entre em <span>Contato</span></h2>
         <div class="form-contact">
-          <form id="consultation-form" class="feed-form" action="#">
+          <form action="mailto:eduardodsdev@gmail.com" method="post" enctype="text/plain" id="consultation-form" class="feed-form">
             <input required="" placeholder="Nome Completo" type="text" />
             <input name="email" required="" placeholder="Email" />
             <input
@@ -319,7 +367,7 @@
               name="message"
               required=""
               placeholder="Mensagem"
-              type="email"
+              
             />
             <button class="button-inicio">
               <span id="contact">Enviar Mensagem</span>
