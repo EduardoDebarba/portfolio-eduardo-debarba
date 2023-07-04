@@ -22,3 +22,16 @@ let btnClick = function(){
 window.sr = ScrollReveal({reset: true})
 
 sr.reveal('.scroll', {duration: 2000})
+
+window.addEventListener('scroll', function() {
+  var arrow = document.getElementById('arrow');
+  if (window.pageYOffset > 100) {
+    arrow.classList.add('show');
+  } else {
+    arrow.classList.remove('show');
+  }
+});
+
+document.getElementById('arrow').addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});

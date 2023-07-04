@@ -77,7 +77,6 @@ nav li a:hover{
   height: 92vh;
 }
 
-
 .text-pessoal h1{
   font-size: 5.2rem;
 }
@@ -140,7 +139,7 @@ h4 {
   margin-bottom: 2rem;
 }
 
-#logo-github, #logo-linkedin{
+#logo-github, #logo-linkedin, #logo-phone{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,6 +174,23 @@ h2 {
 
 .texto-sobre-mim span{
   color: var(--main-color);
+}
+
+.arrow {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 74px;
+  color: #fff;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.arrow.show {
+  display: block;
 }
 
 #habilidades {
@@ -388,6 +404,10 @@ h2 {
 .contact-section .button-inicio{
   width: 30%;
   margin: 0 auto;
+}
+
+#btn-form{
+  margin-top: 20px;
 }
 
 #contact{
