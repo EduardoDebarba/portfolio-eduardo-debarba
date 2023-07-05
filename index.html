@@ -71,9 +71,6 @@
           <div class="social-media">
             <a id="logo-linkedin" href="https://www.linkedin.com/in/eduardo-debarba-216836245/" target="_blank"><img src="./images/icons8-linkedin-circundado-64.png" alt=""></a>
           </div>
-          <div class="social-media">
-            <a id="logo-phone" href="https://github.com/EduardoDebarba" target="_blank"><img src="./images/281830_phone_circle_mobile_communication_call_icon.png" alt=""></a>
-          </div>
           <a href="./CurriculoEduardoDebarba.pdf" download>
             <button class="button-inicio">
               <svg
@@ -360,25 +357,26 @@
 
         </div>
       </section>
+
+
       <section class="contact-section">
         <h2>Entre em <span>Contato</span></h2>
         <div class="form-contact">
-          <form action="mailto:eduardodsdev@gmail.com" method="post" enctype="text/plain" id="consultation-form" class="feed-form">
-            <input required="" placeholder="Nome Completo" type="text" />
-            <input name="email" required="" placeholder="Email" />
-            <input
-              id="txt"
-              name="message"
-              required=""
-              placeholder="Mensagem"
-              
-            />
-            <button class="button-inicio" id="btn-form">
+          <form action="https://api.staticforms.xyz/submit" method="post" id="consultation-form" class="feed-form">
+            <input id="name" required="" placeholder="Nome Completo" type="text" />
+            <input id="email" name="email" required="" placeholder="Email" type="email" />
+            <input id="txt" name="message" required="" placeholder="Mensagem" type="text"/>
+            <button type="submit" class="button-inicio" id="btn-form">
               <span id="contact">Enviar Mensagem</span>
             </button>
+            <input type="hidden" name="accessKey" value="ee3a178a-fd96-48cf-aee5-0f366ebf4f22">
+            <input type="hidden" name="redirectTo" value="https://eduardodebarba.github.io/portifolio/email.html">
           </form>
         </div>
       </section>
+
+
+
     </main>
     <footer>
       <p>Copyright 2023 by Eduardo Debarba | Todos os Direitos Reservados</p>

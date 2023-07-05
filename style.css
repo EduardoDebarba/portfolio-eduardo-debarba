@@ -179,10 +179,8 @@ h2 {
 .arrow {
   display: none;
   position: fixed;
-  bottom: 50px;
+  bottom: 10px;
   right: 30px;
-  width: 50px;
-  height: 50px;
   font-size: 74px;
   color: #fff;
   z-index: 9999;
@@ -277,6 +275,7 @@ h2 {
   border-radius: 20px;
   box-shadow: 0px 10px 40px #00000056;
   margin-bottom: 50px;
+  background-color: var(--second-bg-color);
 }
 
 #title-projeto span{
@@ -427,6 +426,35 @@ footer{
   text-align: center;
   padding: 2rem 9%;
   background-color: var(--second-bg-color);
+}
+
+/* Pagina do Email */
+
+.main-email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#title-email{
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+#text-email{
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#link-email{
+  padding: 15px 55px;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  color: black;
+  font-size: 18px;
 }
 
 @media (min-width:1223px) and (max-width: 1485px) {
