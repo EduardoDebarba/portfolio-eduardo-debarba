@@ -74,7 +74,6 @@ nav li a:hover{
   align-items: center;
   justify-content: center;
   gap: 10rem;
-  /* line-height: 8rem; */
   height: 92vh;
 }
 
@@ -161,7 +160,6 @@ h4 {
 }
 
 h2 {
-  /* margin-bottom: 20px; */
   text-align: center;
   font-size: 4.5rem;
 }
@@ -182,14 +180,8 @@ h2 {
   position: fixed;
   bottom: 10px;
   right: 20px;
-  /* font-size: 4px; */
-  /* color: #4d1212; */
   z-index: 9999;
   cursor: pointer;
-  /* background-color: rgb(255, 255, 255); */
-  /* padding: .3rem; */
-  /* border-radius: 50%; */
-  /* width: 10rem; */
 }
 
 .arrow img{
@@ -293,8 +285,6 @@ h2 {
   height: 25rem;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
 }
 
 .text-projects h5{
@@ -612,7 +602,6 @@ footer{
 
   .projeto{
     width: 45%;
-    height: 800px;
   }
 }
 
@@ -797,22 +786,7 @@ footer{
   }
 
   .projeto {
-    height: 950px;
     width: 90%;
-  }
-
-  #fundo1 {
-    background-image: url(./images/fundo-celular-projeto1.png);
-    background-size: cover;
-  }
-
-  #fundo2 {
-    background-image: url(./images/fundo-celular-projeto2.png);
-    background-size: cover;
-  }
-
-  #fundo4{
-    background-image: url(./images/fundo-celular-projeto4.png);
   }
 
   .button-projeto{

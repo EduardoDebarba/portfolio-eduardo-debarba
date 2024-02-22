@@ -9,15 +9,19 @@ menuToggle.addEventListener("click", () => {
     show = !show;
 })
 
-let cont = document.querySelector('.more-projects')
-
-let btnClick = function(){
-  if(cont.style.display === 'flex'){
-    cont.style.display = 'none'
-  }else{
-    cont.style.display = 'flex'
-  }
+// Close Menu
+function closeMenu() {
+  document.body.style.overflow = "initial";
+  menuSection.classList.remove("on");
+  show = false;
 }
+
+// Close menu click link
+document.querySelectorAll(".menu-section nav ul a").forEach(anchor => {
+  anchor.addEventListener("click", () => {
+      closeMenu();
+  });
+});
 
 window.sr = ScrollReveal({reset: true})
 
@@ -35,7 +39,6 @@ window.addEventListener('scroll', function() {
 document.getElementById('arrow').addEventListener('click', function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
 
 const btnShow = document.getElementById('btn-show');
 const projeto5 = document.getElementById('projeto5');
