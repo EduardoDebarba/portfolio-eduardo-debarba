@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <link
       rel="shortcut icon"
       href="./images/landing-page.svg"
@@ -58,19 +58,18 @@
         </div>
       </div>
     </header>
-    <!-- &#8593;  -->
     <main id="top"> 
-      <a href="#" id="arrow" class="arrow"><img src="./images/icons8-flecha-100.png" alt=""></a>
+      <a href="#" id="arrow" class="arrow"><img src="./src/images/icons/icons8-flecha-100.png" alt=""></a>
       <section class="scroll" id="first-section">
         <div class="text-pessoal">
           <h1>Olá, eu sou o <br> <span id="span-nome">Eduardo Debarba</span></h1>
           <h4>Desenvolvedor Front-End</h4>
 
           <div class="social-media">
-            <a id="logo-github" href="https://github.com/EduardoDebarba" target="_blank"><img src="./images/icons8-github-64.png" alt=""></a>
+            <a id="logo-github" href="https://github.com/EduardoDebarba" target="_blank"><img src="./src/images/icons/icons8-github-64.png" alt=""></a>
           </div>
           <div class="social-media">
-            <a id="logo-linkedin" href="https://www.linkedin.com/in/eduardo-debarba-216836245/" target="_blank"><img src="./images/icons8-linkedin-circundado-64.png" alt=""></a>
+            <a id="logo-linkedin" href="https://www.linkedin.com/in/eduardo-debarba-216836245/" target="_blank"><img src="./src/images/icons/icons8-linkedin-circundado-64.png" alt=""></a>
           </div>
           <a href="./CurriculoEduardoDebarba.pdf" download>
             <button class="button-inicio">
@@ -91,18 +90,18 @@
           </a>
         </div>
         <div>
-          <img class="image-cartoon" src="./images/code-typing-animate.svg" />
+          <img class="image-cartoon" src="./src/images/code-typing-animate.svg" />
         </div>
       </section>
       <section class="scroll" id="sobre-mim">
         <div id="div-photo">
-          <img class="foto" src="./images/fotoPerfil.jpg" alt="foto-pessoal" />
+          <img class="foto" src="./src/images/fotoPerfil.jpg" alt="foto-pessoal" />
         </div>
         <div class="texto-sobre-mim">
           <h2>Sobre <span>Mim</span></h2>
           <p>
-            Olá! Meu nome é Eduardo Debarba, tenho 21 anos, sou um desenvolvedor
-            Front-End. Atualmente, estou no 6° semestre do curso de Sistemas de
+            Olá! Meu nome é Eduardo Debarba, tenho 22 anos, sou um desenvolvedor
+            Front-End. Atualmente, estou no 8° semestre do curso de Sistemas de
             Informação na Universidade do Vale do Rio dos Sinos (UNISINOS).
             Estou em constante aprendizado, dedicando muito tempo e esforço para
             aprimorar minhas habilidades.
@@ -122,7 +121,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/html.svg"
+              src="./src/images/icons_skills/html.svg"
               alt="logo-html"
             />
             <p>HTML</p>
@@ -131,7 +130,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/css.svg"
+              src="./src/images/icons_skills/css.svg"
               alt="logo-css"
             />
             <p>CSS</p>
@@ -140,7 +139,7 @@
           <div class="logo">
             <img
               class="image-130"
-              src="./images/icons_skills/javascript.svg"
+              src="./src/images/icons_skills/javascript.svg"
               alt="logo-js"
             />
             <p>Javascript</p>
@@ -149,7 +148,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/git.svg"
+              src="./src/images/icons_skills/git.svg"
               alt="logo-git"
             />
             <p>Git</p>
@@ -158,7 +157,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/typescript.png"
+              src="./src/images/icons_skills/typescript.png"
               alt="logo-typescript"
             />
             <p>Typescript</p>
@@ -167,7 +166,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/sass.svg"
+              src="./src/images/icons_skills/sass.svg"
               alt="logo-sass"
             />
             <p>Sass</p>
@@ -176,7 +175,7 @@
           <div class="logo">
             <img
               class="image-150"
-              src="./images/icons_skills/react.svg"
+              src="./src/images/icons_skills/react.svg"
               alt="logo-react"
             />
             <p>React</p>
@@ -185,7 +184,7 @@
           <div class="logo">
             <img
               class="image-120"
-              src="./images/icons_skills/bootstrap.svg"
+              src="./src/images/icons_skills/bootstrap.svg"
               alt="logo-bootstrap"
             />
             <p>Bootstrap</p>
@@ -195,40 +194,15 @@
 
       <h2 id="title-projeto">Meus <span>Projetos</span></h2>
       <section id="projetos">
-        <!-- <div class="projeto">
-          <div id="fundo1"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Clone TechTudo</div>
-            <div class="texto-projetos">
-              Projeto criado com inspiração no site TechTudo. Utilizando HTML e
-              CSS
-            </div>
-            <div class="button-projeto">
-              <a
-                target="_blank"
-                href="https://github.com/EduardoDebarba/clone_techtudo"
-              >
-                <button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button>
-              </a>
-              <a
-                target="_blank"
-                href="https://eduardodebarba.github.io/clone_techtudo/"
-              >
-                <button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div> -->
 
-        <div class="projeto">
-          <img src="./images/fundo-projeto1.png" alt="">
+        <!-- Projeto 1 -->
+        <div id="projeto1" class="projeto">
+            <img class="image-card-project" src="./src/images/fundo-projeto1.png" alt="">
           <div class="container-project">
-            <h5>Clone TechTudo</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+            <div class="text-projects">
+              <h5>CulinaryDreamsHub</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+            </div>
             <div class="button-projeto">
               <a
                 target="_blank"
@@ -250,154 +224,155 @@
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Projeto 2 -->
-        <div class="projeto">
-          <div id="fundo2"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Convite Workshop</div>
-            <div class="texto-projetos">
-              Projeto de um convite para um workshop. Utilizando HTML e CSS
-            </div>
-
-            <div class="button-projeto">
-              <a
-                target="_blank"
-                href="https://github.com/EduardoDebarba/convite_workshop"
-                ><button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button></a
-              >
-
-              <a
-                target="_blank"
-                href="https://eduardodebarba.github.io/convite_workshop/"
-                ><button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button></a
-              >
-            </div>
+<!-- Projeto 2 -->
+        <div id="projeto2" class="projeto">
+          <img class="image-card-project" src="./src/images/fundo-projeto1.png" alt="">
+        <div class="container-project">
+          <div class="text-projects">
+            <h5>CEOMentorshipGlobal</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+          </div>
+          <div class="button-projeto">
+            <a
+              target="_blank"
+              href="https://github.com/EduardoDebarba/clone_techtudo"
+            >
+              <button class="button-inicio">
+                <span>Ver no Github</span>
+              </button>
+            </a>
+            <a
+              target="_blank"
+              href="https://eduardodebarba.github.io/clone_techtudo/"
+            >
+              <button class="button-inicio">
+                <span>Ver na Web</span>
+              </button>
+            </a>
           </div>
         </div>
+      </div>
 
-        <!-- Projeto 3 -->
-        <div class="projeto">
-          <div id="fundo3"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Página de Esportes</div>
-            <div class="texto-projetos">
-              Projeto criado para apresentar diferentes práticas esportivas.
-              Utilizando HTML e CSS
-            </div>
-
-            <div class="button-projeto">
-              <a
-                target="_blank"
-                href="https://github.com/EduardoDebarba/pagina_esportes"
-                ><button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button></a
-              >
-              <a
-                target="_blank"
-                href="https://eduardodebarba.github.io/pagina_esportes/"
-                ><button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button></a
-              >
-            </div>
-          </div>
+      <!-- Projeto 3 -->
+      <div id="projeto3" class="projeto">
+        <img class="image-card-project" src="./src/images/fundo-projeto1.png" alt="">
+      <div class="container-project">
+        <div class="text-projects">
+          <h5>GameMindsQuiz</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
         </div>
-
-        <!-- Projeto 4 -->
-        <div class="projeto">
-          <div id="fundo4"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Buildcon Houses</div>
-            <div class="texto-projetos">
-              Projeto criado para apresentar uma empresa fictícia de construção de casas e prédios. Utilizando HTML, CSS e JavaScript
-            </div>
-
-            <div class="button-projeto">
-              <a target="_blank" href="https://github.com/EduardoDebarba/buildcon_houses"
-                ><button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button></a
-              >
-              <a target="_blank" href="https://eduardodebarba.github.io/buildcon_houses/"
-                ><button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button></a
-              >
-            </div>
-          </div>
+        <div class="button-projeto">
+          <a
+            target="_blank"
+            href="https://github.com/EduardoDebarba/clone_techtudo"
+          >
+            <button class="button-inicio">
+              <span>Ver no Github</span>
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href="https://eduardodebarba.github.io/clone_techtudo/"
+          >
+            <button class="button-inicio">
+              <span>Ver na Web</span>
+            </button>
+          </a>
         </div>
+      </div>
+    </div>
 
-        <!-- Projeto 5 -->
-        <div class="projeto">
-          <div id="fundo5"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Em Breve</div>
-            <div class="texto-projetos">
-              Projeto em Desenvolvimento
-            </div>
+    <!-- Projeto 4 -->
+    <div id="projeto4" class="projeto">
+      <img class="image-card-project" src="./src/images/fundo-projeto1.png" alt="">
+    <div class="container-project">
+      <div class="text-projects">
+        <h5>Clone TechTudo</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+      </div>
+      <div class="button-projeto">
+        <a
+          target="_blank"
+          href="https://github.com/EduardoDebarba/clone_techtudo"
+        >
+          <button class="button-inicio">
+            <span>Ver no Github</span>
+          </button>
+        </a>
+        <a
+          target="_blank"
+          href="https://eduardodebarba.github.io/clone_techtudo/"
+        >
+          <button class="button-inicio">
+            <span>Ver na Web</span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
 
-            <div class="button-projeto">
-              <a target="_blank" href="#"
-                ><button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button></a
-              >
-              <a target="_blank" href="#"
-                ><button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button></a
-              >
-            </div>
-          </div>
+
+  <!-- Projeto 5 -->
+  <div id="projeto5" class="projeto show">
+    <img class="image-card-project" src="./src/images/projects/17-1.png" alt="">
+  <div class="container-project">
+    <div class="text-projects">
+      <h5>Em Desenvolvimento</h5>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+    </div>
+    <div class="button-projeto">
+      <a
+        target="_blank"
+        href=""
+      >
+        <button class="button-inicio">
+          <span>Ver no Github</span>
+        </button>
+      </a>
+      <a
+        target="_blank"
+        href=""
+      >
+        <button class="button-inicio">
+          <span>Ver na Web</span>
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Projeto 6 -->
+<div id="projeto6" class="projeto show">
+  <img class="image-card-project" src="./src/images/projects/17-1.png" alt="">
+<div class="container-project">
+  <div class="text-projects">
+    <h5>Em Desenvolvimento</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
+  </div>
+  <div class="button-projeto">
+    <a
+      target="_blank"
+      href=""
+    >
+      <button class="button-inicio">
+        <span>Ver no Github</span>
+      </button>
+    </a>
+    <a
+      target="_blank"
+      href=""
+    >
+      <button class="button-inicio">
+        <span>Ver na Web</span>
+      </button>
+    </a>
+  </div>
+</div>
+</div>
         </div>
-
-        <!-- Projeto 6 -->
-        <div class="projeto">
-          <div id="fundo6"></div>
-          <div class="texto-fundo">
-            <div class="titulo-projetos">Em Breve</div>
-            <div class="texto-projetos">
-              Projeto em Desenvolvimento
-            </div>
-
-            <div class="button-projeto">
-              <a target="_blank" href="#"
-                ><button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button></a
-              >
-              <a target="_blank" href="#"
-                ><button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button></a
-              >
-            </div>
-          </div>
-        </div>
-            </div>
-          </div>
-
-        </div>
+       
       </section>
+      <button class="button-inicio" id="btn-show">Mais Projetos</button>
 
       <section class="contact-section" id="message">
         <h2>Entre em <span>Contato</span></h2>
@@ -416,7 +391,7 @@
       </section>
     </main>
     <footer>
-      <p>Copyright 2023 by Eduardo Debarba | Todos os Direitos Reservados</p>
-    <script src="./script.js"></script>
+      <p>Copyright 2024 by Eduardo Debarba | Todos os Direitos Reservados</p>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>

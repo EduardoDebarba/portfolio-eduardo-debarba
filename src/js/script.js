@@ -37,6 +37,22 @@ document.getElementById('arrow').addEventListener('click', function() {
 });
 
 
+const btnShow = document.getElementById('btn-show');
+const projeto5 = document.getElementById('projeto5');
+const projeto6 = document.getElementById('projeto6');
+
+btnShow.addEventListener('click', function() {
+    if (projeto5.classList.contains('show') && projeto6.classList.contains('show')) {
+        projeto5.classList.remove('show');
+        projeto6.classList.remove('show');
+        btnShow.textContent = 'Menos Projetos';
+    } else {
+        projeto5.classList.add('show');
+        projeto6.classList.add('show');
+        btnShow.textContent = 'Mais Projetos';
+    }
+});
+
 
 
 
