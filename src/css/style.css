@@ -161,7 +161,7 @@ body {
 	border-radius: 20px;
 	padding: 2rem;
 	box-shadow: var(--shadow-1);
-	width: 26%;
+	width: 35%;
 }
 
 .infos-thanks img {
@@ -1188,6 +1188,10 @@ textarea.form-input::-webkit-resizer {
 
 	.scrolling-background {
 		display: none;
+	}
+
+	.infos-thanks{
+		width: 90%;
 	}
 
 	.modal {
