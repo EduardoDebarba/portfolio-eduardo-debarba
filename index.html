@@ -1,396 +1,1538 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="./images/landing-page.svg"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;700;800&display=swap"
-      rel="stylesheet"
-    />
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portifólio - Eduardo Debarba</title>
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Portifólio | Eduardo Debarba</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h3>Eduardo Debarba</h3>
-        <div class="menu-section">
-          <div class="menu-toggle">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <a href="#top">Inicio</a>
-              </li>
-              <li>
-                <a href="#sobre-mim">Sobre</a>
-              </li>
-              <li>
-                <a href="#title-projeto">Projetos</a>
-              </li>
-              <li>
-                <a href="#habilidades">Habilidades</a>
-              </li>
-              <li>
-                <a href="#message">Contato</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <main id="top"> 
-      <a href="#" id="arrow" class="arrow"><img src="./src/images/icons/icons8-flecha-100.png" alt=""></a>
-      <section class="scroll" id="first-section">
-        <div class="text-pessoal">
-          <h1>Olá, eu sou o <br> <span id="span-nome">Eduardo Debarba</span></h1>
-          <h4>Desenvolvedor Front-End</h4>
+		<link
+			rel="shortcut icon"
+			href="./src/images/icons/icon-favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-          <div class="social-media">
-            <a id="logo-github" href="https://github.com/EduardoDebarba" target="_blank"><img src="./src/images/icons/icons8-github-64.png" alt=""></a>
-          </div>
-          <div class="social-media">
-            <a id="logo-linkedin" href="https://www.linkedin.com/in/eduardo-debarba-216836245/" target="_blank"><img src="./src/images/icons/icons8-linkedin-circundado-64.png" alt=""></a>
-          </div>
-          <a href="./CurriculoEduardoDebarba.pdf" download>
-            <button class="button-inicio">
-              <svg
-                height="24"
-                width="24"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-              <span>Currículo</span>
-            </button>
-          </a>
-        </div>
-        <div>
-          <img class="image-cartoon" src="./src/images/code-typing-animate.svg" />
-        </div>
-      </section>
-      <section class="scroll" id="sobre-mim">
-        <div id="div-photo">
-          <img class="foto" src="./src/images/fotoPerfil.jpg" alt="foto-pessoal" />
-        </div>
-        <div class="texto-sobre-mim">
-          <h2>Sobre <span>Mim</span></h2>
-          <p>
-            Olá! Meu nome é Eduardo Debarba, tenho 22 anos, sou um desenvolvedor
-            Front-End. Atualmente, estou no 8° semestre do curso de Sistemas de
-            Informação na Universidade do Vale do Rio dos Sinos (UNISINOS).
-            Estou em constante aprendizado, dedicando muito tempo e esforço para
-            aprimorar minhas habilidades.
-          </p>
-          <p>
-            Sou uma pessoa dedicada, proativa e sempre buscando aprender mais,
-            transformar meu conhecimento em sites tem sido minha paixão há muito
-            tempo.
-          </p>
-        </div>
-      </section>
+	<body>
+		<main>
+			<!-- SIDEBAR -->
+			<aside class="sidebar" data-sidebar>
+				<div class="sidebar-info">
+					<figure class="avatar-box">
+						<img src="./src/images/avatar.jpg" alt="Eduardo Debarba" />
+					</figure>
 
-      <section class="scroll" id="habilidades">
-        <h2>Minhas <span>Habilidades</span></h2>
-        <br />
-        <div class="logo-habilidades">
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/html.svg"
-              alt="logo-html"
-            />
-            <p>HTML</p>
-          </div>
+					<div class="info-content">
+						<h1 class="name" title="Eduardo Debarba">Eduardo Debarba</h1>
 
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/css.svg"
-              alt="logo-css"
-            />
-            <p>CSS</p>
-          </div>
+						<p class="title">Front-End Web Developer</p>
+					</div>
 
-          <div class="logo">
-            <img
-              class="image-130"
-              src="./src/images/icons_skills/javascript.svg"
-              alt="logo-js"
-            />
-            <p>Javascript</p>
-          </div>
+					<button class="info_more-btn" data-sidebar-btn>
+						<span>Mostrar Contatos</span>
 
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/git.svg"
-              alt="logo-git"
-            />
-            <p>Git</p>
-          </div>
+						<ion-icon name="chevron-down"></ion-icon>
+					</button>
+				</div>
 
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/typescript.png"
-              alt="logo-typescript"
-            />
-            <p>Typescript</p>
-          </div>
+				<div class="sidebar-info_more">
+					<div class="separator"></div>
 
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/sass.svg"
-              alt="logo-sass"
-            />
-            <p>Sass</p>
-          </div>
+					<ul class="contacts-list">
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="mail-outline"></ion-icon>
+							</div>
 
-          <div class="logo">
-            <img
-              class="image-150"
-              src="./src/images/icons_skills/react.svg"
-              alt="logo-react"
-            />
-            <p>React</p>
-          </div>
+							<div class="contact-info">
+								<p class="contact-title">Email</p>
 
-          <div class="logo">
-            <img
-              class="image-120"
-              src="./src/images/icons_skills/bootstrap.svg"
-              alt="logo-bootstrap"
-            />
-            <p>Bootstrap</p>
-          </div>
-        </div>
-      </section>
+								<a href="mailto:eduardodsdev@gmail.com" class="contact-link"
+									>eduardodsdev@gmail.com</a
+								>
+							</div>
+						</li>
 
-      <h2 id="title-projeto">Meus <span>Projetos</span></h2>
-      <section id="projetos">
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="logo-linkedin"></ion-icon>
+							</div>
 
-        <!-- Projeto 1 -->
-        <div id="projeto1" class="projeto">
-            <img class="image-card-project" src="./src/images/projects/image-project-culinary.png" alt="">
-          <div class="container-project">
-            <div class="text-projects">
-              <h5>CulinaryDreamsHub</h5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-            </div>
-            <div class="button-projeto">
-              <a
-                target="_blank"
-                href="https://github.com/EduardoDebarba/CulinaryDreamsHub"
-              >
-                <button class="button-inicio">
-                  <span>Ver no Github</span>
-                </button>
-              </a>
-              <a
-                target="_blank"
-                href="https://eduardodebarba.github.io/CulinaryDreamsHub/"
-              >
-                <button class="button-inicio">
-                  <span>Ver na Web</span>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+							<div class="contact-info">
+								<p class="contact-title">Linkedin</p>
 
-        <!-- Projeto 2 -->
-        <div id="projeto2" class="projeto">
-          <img class="image-card-project" src="./src/images/projects/image-project-mentorchip.png" alt="">
-        <div class="container-project">
-          <div class="text-projects">
-            <h5>CEOMentorshipGlobal</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-          </div>
-          <div class="button-projeto">
-            <a
-              target="_blank"
-              href="https://github.com/EduardoDebarba/CEOMentorshipGlobal"
-            >
-              <button class="button-inicio">
-                <span>Ver no Github</span>
-              </button>
-            </a>
-            <a
-              target="_blank"
-              href="https://eduardodebarba.github.io/CEOMentorshipGlobal/"
-            >
-              <button class="button-inicio">
-                <span>Ver na Web</span>
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
+								<a
+									href="https://www.linkedin.com/in/eduardo-debarba-216836245/"
+									class="contact-link"
+									target="_blank"
+									>Acesse o meu perfil</a
+								>
+							</div>
+						</li>
 
-      <!-- Projeto 3 -->
-      <div id="projeto3" class="projeto">
-        <img class="image-card-project" src="./src/images/projects/image-project-quiz.png" alt="">
-      <div class="container-project">
-        <div class="text-projects">
-          <h5>GameMindsQuiz</h5>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-        </div>
-        <div class="button-projeto">
-          <a
-            target="_blank"
-            href="https://github.com/EduardoDebarba/GameMindsQuiz"
-          >
-            <button class="button-inicio">
-              <span>Ver no Github</span>
-            </button>
-          </a>
-          <a
-            target="_blank"
-            href="https://eduardodebarba.github.io/GameMindsQuiz/"
-          >
-            <button class="button-inicio">
-              <span>Ver na Web</span>
-            </button>
-          </a>
-        </div>
-      </div>
-    </div>
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="logo-github"></ion-icon>
+							</div>
 
-    <!-- Projeto 4 -->
-    <div id="projeto4" class="projeto">
-      <img class="image-card-project" src="./src/images/projects/image-project-clone.png" alt="">
-    <div class="container-project">
-      <div class="text-projects">
-        <h5>Clone TechTudo</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-      </div>
-      <div class="button-projeto">
-        <a
-          target="_blank"
-          href="https://github.com/EduardoDebarba/clone_techtudo"
-        >
-          <button class="button-inicio">
-            <span>Ver no Github</span>
-          </button>
-        </a>
-        <a
-          target="_blank"
-          href="https://eduardodebarba.github.io/clone_techtudo/"
-        >
-          <button class="button-inicio">
-            <span>Ver na Web</span>
-          </button>
-        </a>
-      </div>
-    </div>
-  </div>
+							<div class="contact-info">
+								<p class="contact-title">Github</p>
 
+								<a
+									href="https://github.com/EduardoDebarba"
+									class="contact-link"
+									target="_blank"
+									>Veja os meus códigos</a
+								>
+							</div>
+						</li>
 
-  <!-- Projeto 5 -->
-  <div id="projeto5" class="projeto show">
-    <img class="image-card-project" src="./src/images/projects/17-1.png" alt="">
-  <div class="container-project">
-    <div class="text-projects">
-      <h5>Em Desenvolvimento</h5>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-    </div>
-    <div class="button-projeto">
-      <a
-        target="_blank"
-        href=""
-      >
-        <button class="button-inicio">
-          <span>Ver no Github</span>
-        </button>
-      </a>
-      <a
-        target="_blank"
-        href=""
-      >
-        <button class="button-inicio">
-          <span>Ver na Web</span>
-        </button>
-      </a>
-    </div>
-  </div>
-</div>
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="location-outline"></ion-icon>
+							</div>
 
-<!-- Projeto 6 -->
-<div id="projeto6" class="projeto show">
-  <img class="image-card-project" src="./src/images/projects/17-1.png" alt="">
-<div class="container-project">
-  <div class="text-projects">
-    <h5>Em Desenvolvimento</h5>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fuga harum temporibus necessitatibus non qui</p>
-  </div>
-  <div class="button-projeto">
-    <a
-      target="_blank"
-      href=""
-    >
-      <button class="button-inicio">
-        <span>Ver no Github</span>
-      </button>
-    </a>
-    <a
-      target="_blank"
-      href=""
-    >
-      <button class="button-inicio">
-        <span>Ver na Web</span>
-      </button>
-    </a>
-  </div>
-</div>
-</div>
-        </div>
-      </section>
-      <button class="button-inicio" id="btn-show">Mais Projetos</button>
+							<div class="contact-info">
+								<p class="contact-title">Localização</p>
 
-      <section class="contact-section" id="message">
-        <h2>Entre em <span>Contato</span></h2>
-        <div class="form-contact">
-          <form action="https://api.staticforms.xyz/submit" method="post" id="consultation-form" class="feed-form">
-            <input id="name" required="" placeholder="Nome Completo" type="text" />
-            <input id="email" name="email" required="" placeholder="Email" type="email" />
-            <input id="txt" name="message" required="" placeholder="Mensagem" type="text"/>
-            <button type="submit" class="button-inicio" id="btn-form">
-              <span id="contact">Enviar Mensagem</span>
-            </button>
-            <input type="hidden" name="accessKey" value="ee3a178a-fd96-48cf-aee5-0f366ebf4f22">
-            <input type="hidden" name="redirectTo" value="https://eduardodebarba.github.io/portifolio/email.html">
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright 2024 by Eduardo Debarba | Todos os Direitos Reservados</p>
-    <script src="./src/js/script.js"></script>
-  </body>
+								<address>Gramado, RS, Brasil</address>
+							</div>
+						</li>
+					</ul>
+
+					<div class="separator"></div>
+				</div>
+			</aside>
+
+			<!-- MAIN CONTENT -->
+
+			<div class="main-content">
+				<!-- NAVBAR -->
+
+				<nav class="navbar">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<button
+								class="navbar-link active"
+								data-nav-link
+								data-page="sobre"
+							>
+								Sobre
+							</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link data-page="projetos">
+								Projetos
+							</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link data-page="habilidades">
+								Habilidades
+							</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link data-page="curriculo">
+								Currículo
+							</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link data-page="contato">
+								Contato
+							</button>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- SOBRE -->
+				<article class="about active" data-page="sobre">
+					<header>
+						<h2 class="h2 article-title">Sobre Mim</h2>
+					</header>
+
+					<section class="about-text">
+						<p>
+							Olá! Meu nome é Eduardo Debarba, tenho 23 anos e sou desenvolvedor
+							Front-End, atualmente no 8º semestre de Sistemas de Informação na
+							UNISINOS. Sou dedicado, proativo e apaixonado por transformar
+							ideias em soluções reais, criando interfaces funcionais e
+							visualmente atrativas.
+						</p>
+
+						<p>
+							Tenho experiência com HTML, CSS, JavaScript, Sass, Bootstrap e
+							Git, além de estar em constante aprendizado para me manter
+							atualizado com as melhores práticas e tecnologias do mercado.
+							Acredito na colaboração e na importância de criar projetos que
+							entreguem valor e uma experiência intuitiva para os usuários.
+						</p>
+					</section>
+
+					<a href="./curriculo-eduardo-debarba.pdf" target="_blank">
+						<button class="form-btn" type="button" data-form-btn>
+							<ion-icon name="document-text"></ion-icon>
+							<span>Baixar Currículo</span>
+						</button>
+					</a>
+
+					<!-- SERVIÇOS -->
+
+					<section class="service">
+						<h3 class="h3 service-title">O que eu faço</h3>
+
+						<ul class="service-list">
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img
+										src="./src/images/icons/icon-design.svg"
+										alt="design icon"
+										width="40"
+									/>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Design de Interfaces</h4>
+
+									<p class="service-item-text">
+										Criação de interfaces modernas, intuitivas e visualmente
+										atraentes, com foco em usabilidade e experiência do usuário
+										(UX/UI).
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img
+										src="./src/images/icons/icon-dev.svg"
+										alt="Web development icon"
+										width="40"
+									/>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">
+										Desenvolvimento front-end
+									</h4>
+
+									<p class="service-item-text">
+										Desenvolvimento de sites responsivos e aplicações web
+										utilizando as tecnologias mais recentes, como HTML, CSS,
+										JavaScript e React.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</section>
+
+					<section class="projects">
+						<h3 class="h3 testimonials-title">Últimos Projetos</h3>
+
+						<ul class="project-list">
+							<li class="project-item active">
+								<a
+									href="https://eduardodebarba.github.io/spacex-clone/"
+									target="_blank"
+								>
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-clone-spacex.png"
+											alt="clone-spacex"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Clone SpaceX</h3>
+								</a>
+							</li>
+
+							<li class="project-item active">
+								<a
+									href="https://eduardodebarba.github.io/culinary-dreams-hub/"
+									target="_blank"
+								>
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-culinary.png"
+											alt="orizon"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Resto Culinary</h3>
+								</a>
+							</li>
+
+							<li class="project-item active">
+								<a
+									href="https://eduardodebarba.github.io/ceo-mentorship-global/"
+									target="_blank"
+								>
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-ceo-mentorship.png"
+											alt="fundo"
+											loading="lazy"
+										/>
+									</figure>
+									<h3 class="project-title">CEO Mentorship</h3>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<!-- CURRICULO -->
+
+				<article class="resume" data-page="curriculo">
+					<header>
+						<h2 class="h2 article-title">Meu Currículo</h2>
+					</header>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Educação</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">
+									Universidade do Vale do Rio dos Sinos (UNISINOS)
+								</h4>
+
+								<span>2020 — Presente</span>
+
+								<p class="timeline-text">
+									Estudante do 8º semestre de Sistemas de Informação, com
+									interesse em Desenvolvimento Web Front-End. <br />
+									Busco uma oportunidade para aplicar e expandir meus
+									conhecimentos em um ambiente colaborativo.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Inglês</h4>
+								<span>Nível: Intermediário</span>
+								<p class="timeline-text">
+									Capacidade de leitura e compreensão de textos técnicos. <br />
+									Comunicação básica em ambientes profissionais. <br />
+									Participação em cursos online e prática com materiais de
+									tecnologia em inglês.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">
+									Formação em Desenvolvimento Web Front-End (Onebitcode)
+								</h4>
+
+								<span>2021 - Presente</span>
+
+								<p class="timeline-text">
+									Formação contínua em desenvolvimento web, com cursos
+									concluídos e outros em andamento nas principais tecnologias e
+									ferramentas da área: <br />
+									HTML5 e CSS3: Criação de layouts estruturados e estilizados,
+									com foco em semântica e acessibilidade. <br />
+									Git e GitHub: Controle de versão e colaboração em projetos
+									utilizando boas práticas de versionamento. <br />
+									SASS e Bootstrap: Otimização de estilos com pré-processadores
+									e criação de designs responsivos e dinâmicos. <br />
+									JavaScript: Desenvolvimento de funcionalidades interativas e
+									manipulação do DOM.
+								</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Experiência</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">
+									Desenvolvedor Web Freelancer
+								</h4>
+
+								<span>2022 — Presente</span>
+
+								<p class="timeline-text">
+									Atuando como freelancer no desenvolvimento de sites e
+									aplicações web, com foco em criar soluções personalizadas.
+								</p>
+
+								<p class="timeline-text">
+									Estou em busca de novas oportunidades que me permitam aplicar
+									e expandir minhas habilidades em um ambiente colaborativo,
+									seja como freelancer ou em uma posição fixa.
+								</p>
+							</li>
+						</ol>
+					</section>
+				</article>
+
+				<!-- PROJETOS -->
+
+				<article class="portfolio" data-page="projetos">
+					<header>
+						<h2 class="h2 article-title">Meus Projetos</h2>
+					</header>
+
+					<section class="projects">
+						<ul class="filter-list">
+							<li class="filter-item">
+								<button class="active" data-filter-btn>Todos</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>HTML e CSS</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Javascript</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Bootstrap e Sass</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>React</button>
+							</li>
+						</ul>
+
+						<div class="filter-select-box">
+							<button class="filter-select" data-select>
+								<div class="select-value" data-selecct-value>
+									Select category
+								</div>
+
+								<div class="select-icon">
+									<ion-icon name="chevron-down"></ion-icon>
+								</div>
+							</button>
+
+							<ul class="select-list">
+								<li class="select-item">
+									<button data-select-item>Todos</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>HTML e CSS</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Javascript</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Bootstrap e Sass</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>React</button>
+								</li>
+							</ul>
+						</div>
+
+						<ul class="project-list">
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="bootstrap e sass"
+							>
+								<a href="#" data-modal-target="#modal1">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+										<img
+											src="./src/images/projects/projeto-clone-spacex.png"
+											alt="finance"
+											loading="lazy"
+										/>
+									</figure>
+									<h3 class="project-title">Clone Site Spacex</h3>
+									<p class="project-category">Desenvolvido em Bootstrap</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="html e css"
+							>
+								<a href="#" data-modal-target="#modal2">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-culinary.png"
+											alt="orizon"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Resto Culinary</h3>
+
+									<p class="project-category">Desenvolvido em HTML e CSS</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="html e css"
+							>
+								<a href="#" data-modal-target="#modal3">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-ceo-mentorship.png"
+											alt="fundo"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">CEO Mentorship Global</h3>
+
+									<p class="project-category">Desenvolvido em HTML e CSS</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="javascript"
+							>
+								<a href="#" data-modal-target="#modal4">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-quiz.png"
+											alt="summary"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Game Minds Quiz</h3>
+
+									<p class="project-category">Desenvolvido em Javascript</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="html e css"
+							>
+								<a href="#" data-modal-target="#modal5">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-clone-techtudo.png"
+											alt="brawlhalla"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Clone Site TechTudo</h3>
+
+									<p class="project-category">Desenvolvido em HTML e CSS</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="html e css"
+							>
+								<a href="#" data-modal-target="#modal6">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-esportes.png"
+											alt="dsm."
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Página de Esportes</h3>
+
+									<p class="project-category">Desenvolvido em HTML e CSS</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="javascript"
+							>
+								<a href="#" data-modal-target="#modal7">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-to-do-list.png"
+											alt="task manager"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">To do list</h3>
+
+									<p class="project-category">Desenvolvido em Javascript</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="html e css"
+							>
+								<a href="#" data-modal-target="#modal8">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-buildcon-houses.png"
+											alt="metaspark"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Buildcon Houses</h3>
+
+									<p class="project-category">Desenvolvido em HTML e CSS</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="web development"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-desenvolvimento.png"
+											alt="arrival"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Em Desenvolvimento</h3>
+
+									<p class="project-category">Desenvolvido em ...</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="web development"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-desenvolvimento.png"
+											alt="arrival"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Em Desenvolvimento</h3>
+
+									<p class="project-category">Desenvolvido em ...</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="web development"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-desenvolvimento.png"
+											alt="arrival"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Em Desenvolvimento</h3>
+
+									<p class="project-category">Desenvolvido em ...</p>
+								</a>
+							</li>
+
+							<li
+								class="project-item active"
+								data-filter-item
+								data-category="web development"
+							>
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./src/images/projects/projeto-desenvolvimento.png"
+											alt="arrival"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Em Desenvolvimento</h3>
+
+									<p class="project-category">Desenvolvido em ...</p>
+								</a>
+							</li>
+						</ul>
+
+						<!-- MODAL -->
+						<!-- Modal Spacex Clone -->
+						<div id="modal1" class="modal">
+							<div class="modal-content">
+									<div class="scrolling-background scroll-spacex"></div>
+								<div class="modal-details">
+									<h3>Clone do site da Spacex</h3>
+									<p class="date">Data de Realização: Janeiro de 2025</p>
+									<p class="description">
+										Este projeto consiste em um clone do site oficial da SpaceX, desenvolvido com HTML, SASS, Bootstrap e JavaScript. Recriei todas as páginas do site original, incluindo informações sobre os foguetes Falcon 9, Falcon Heavy, Starship e a cápsula Dragon. Adicionei também uma seção sobre a missão Artemis e outra sobre os planetas do sistema solar.
+									</p>
+									<p class="description">
+										Utilizei o Bootstrap para garantir a responsividade do site e o SASS para otimizar o desenvolvimento do estilo visual. O JavaScript foi implementado para adicionar interatividade e funcionalidades dinâmicas, proporcionando uma experiência de usuário imersiva e fluída.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+										<img src="./src/images/icons_skills/icon-sass.png" alt="Logo sass" />
+										<img
+											src="./src/images/icons_skills/icon-bootstrap.png"
+											alt="Logo bootstrap"
+										/>
+										<img
+											src="./src/images/icons_skills/icon-javascript.png"
+											alt="Logo javascript"
+										/>
+									</div>
+
+									<div class="buttons">
+										<a href="https://github.com/EduardoDebarba/spacex-clone" target="_blank" class="form-btn" data-form-btn=""
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a href="https://eduardodebarba.github.io/spacex-clone/" target="_blank" class="form-btn" data-form-btn=""
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal Resto Culinary -->
+						<div id="modal2" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-resto-culinary"></div>
+
+								<div class="modal-details">
+									<h3>Resto Culinary</h3>
+									<p class="date">Data de Realização: Fevereiro de 2024</p>
+									<p class="description">
+										O projeto Resto Culinary é uma página web simulando o cardápio de um restaurante, desenvolvida com HTML e CSS. A página apresenta cards interativos com diferentes pratos do menu, além de seções dedicadas a informações sobre o restaurante, avaliações de clientes e um formulário para pedidos via delivery.
+									</p>
+									<p class="description">
+										O design responsivo foi estruturado para proporcionar uma experiência agradável ao usuário, destacando a organização visual e a usabilidade. Este projeto foi uma ótima oportunidade para aprimorar habilidades de estilização e estruturação de páginas web.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/culinary-dreams-hub"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/culinary-dreams-hub/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal CEO Mentorship -->
+						<div id="modal3" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-ceo-mentorship"></div>
+
+								<div class="modal-details">
+									<h3>CEO Mentorship</h3>
+									<p class="date">Data de Realização: Fevereiro de 2024</p>
+									<p class="description">
+										O CEO Mentorship é uma página web criada para divulgar um programa de líderes, desenvolvida com HTML e CSS. A página apresenta seções detalhadas sobre o público-alvo, o formato do programa, seu conteúdo, principais benefícios e uma lista de palestrantes renomados mundialmente. Além disso, inclui uma seção destacando empresas que já participaram e um FAQ com respostas para as dúvidas mais comuns dos interessados.
+									</p>
+									<p class="description">
+										Com um design limpo e profissional, o projeto foca na clareza das informações e na experiência do usuário, proporcionando uma apresentação atraente e informativa para os futuros participantes do programa.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/ceo-mentorship-global"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/ceo-mentorship-global/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal Game Minds Quiz -->
+						<div id="modal4" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-quiz"></div>
+
+								<div class="modal-details">
+									<h3>Game Minds Quiz</h3>
+									<p class="date">Data de Realização: Março de 2024</p>
+									<p class="description">
+										O Game Minds Quiz é um jogo de perguntas e respostas sobre o universo dos videogames, desenvolvido com HTML, CSS e JavaScript. O jogo apresenta questões com quatro opções de resposta, sendo apenas uma correta. A cada acerto, o jogador ganha 1 ponto, enquanto erros são contabilizados separadamente, permitindo acompanhar o desempenho ao longo do quiz.
+									</p>
+									<p class="description">
+										Este projeto explora a interatividade com o usuário por meio de lógica em JavaScript, oferecendo uma experiência dinâmica e envolvente. Além disso, o design foi pensado para garantir uma interface intuitiva e agradável, tornando o quiz acessível para todos os públicos.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+										<img
+											src="./src/images/icons_skills/icon-javascript.png"
+											alt="Logo javascript"
+										/>
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/game-minds-quiz"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/game-minds-quiz/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal Clone Site TechTudo -->
+						<div id="modal5" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-clone-techtudo"></div>
+
+								<div class="modal-details">
+									<h3>Clone do site do TechTudo</h3>
+									<p class="date">Data de Realização: Janeiro de 2023</p>
+									<p class="description">
+										Este projeto é um clone do site TechTudo, desenvolvido com HTML e CSS. A página recria fielmente o layout e a estrutura visual do site original, apresentando uma reportagem fictícia sobre consumo de energia. O foco foi reproduzir a organização dos elementos, como imagens, textos e seções, proporcionando uma experiência de leitura semelhante à do site real.
+									</p>
+									<p class="description">
+										Esse projeto foi uma excelente oportunidade para aprimorar habilidades em estilização e responsividade, explorando boas práticas de design web para criar uma interface visualmente atrativa e funcional.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/clone-techtudo"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/clone-techtudo/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal Página de Esportes -->
+						<div id="modal6" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-esportes"></div>
+
+								<div class="modal-details">
+									<h3>Página de Esportes</h3>
+									<p class="date">Data de Realização: Janeiro de 2023</p>
+									<p class="description">
+										Este projeto é uma página web dedicada a diversos esportes, desenvolvida com HTML e CSS, com foco no aprimoramento das habilidades em CSS Grid. A página apresenta diferentes cards, cada um relacionado a um esporte específico, acompanhados por uma breve descrição, organizados de forma responsiva e harmoniosa.
+									</p>
+									<p class="description">
+										O objetivo principal deste projeto foi explorar o potencial do CSS Grid para criar layouts flexíveis e estruturados, garantindo uma apresentação visual clara e atrativa para os visitantes.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/pagina-esportes"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/pagina-esportes/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal to-do-list -->
+						<div id="modal7" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-to-do-list"></div>
+
+								<div class="modal-details">
+									<h3>To do list</h3>
+									<p class="date">Data de Realização: Abril de 2024</p>
+									<p class="description">
+										O BuildCon Houses é uma página web desenvolvida com HTML e CSS para simular a presença online de uma empresa especializada na construção de casas e prédios de alto padrão. A página apresenta seções detalhadas sobre a empresa, seus serviços, projetos já realizados, a equipe principal e um formulário de contato para potenciais clientes.
+									</p>
+									<p class="description">
+										O projeto foi focado na criação de um design elegante e organizado, garantindo uma experiência visual atraente e intuitiva, destacando as principais informações de forma clara e acessível.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+										<img
+											src="./src/images/icons_skills/icon-javascript.png"
+											alt="Logo javascript"
+										/>
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/to-do-list"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/to-do-list/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+
+						<!-- Modal Buildcon Houses -->
+						<div id="modal8" class="modal">
+							<div class="modal-content">
+								<div class="scrolling-background scroll-buildcon"></div>
+
+								<div class="modal-details">
+									<h3>Buildcon Houses</h3>
+									<p class="date">Data de Realização: Março de 2023</p>
+									<p class="description">
+										Breve descrição do projeto. Este é um exemplo de como você
+										pode descrever o seu trabalho, incluindo o que foi feito, as
+										tecnologias usadas, e outros detalhes relevantes.
+									</p>
+									<p class="description">
+										Breve descrição do projeto. Este é um exemplo de como você
+										pode descrever o seu trabalho, incluindo o que foi feito, as
+										tecnologias usadas, e outros detalhes relevantes.
+									</p>
+
+									<div class="tech-stack">
+										<img
+											src="./src/images/icons_skills/icon-html.png"
+											alt="Logo html"
+											text-overlay="teste"
+										/>
+										<img src="./src/images/icons_skills/icon-css.png" alt="Logo css" />
+										<img
+											src="./src/images/icons_skills/icon-javascript.png"
+											alt="Logo javascript"
+										/>
+									</div>
+
+									<div class="buttons">
+										<a
+											href="https://github.com/EduardoDebarba/buildcon-houses"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="logo-github"></ion-icon>
+											<span>Acessar Repositório</span></a
+										>
+										<a
+											href="https://eduardodebarba.github.io/buildcon-houses/"
+											class="form-btn"
+											data-form-btn=""
+											target="_blank"
+											><ion-icon name="arrow-forward"></ion-icon>
+											<span>Acessar Projeto</span></a
+										>
+									</div>
+								</div>
+								<span class="close">&times;</span>
+							</div>
+						</div>
+					</section>
+				</article>
+
+				<!-- HABILIDADES -->
+
+				<article class="blog" data-page="habilidades">
+					<header>
+						<h2 class="h2 article-title">Habilidades</h2>
+					</header>
+
+					<section class="testimonials">
+						<ul class="testimonials-list has-scrollbar">
+							<li class="testimonials-item">
+								<div class="content-card">
+									<figure class="testimonials-avatar-box">
+										<img src="./src/images/icons_skills/icon-html.png" alt="Logo HTML5" />
+									</figure>
+
+									<h4 class="h4 testimonials-item-title">HTML5</h4>
+
+									<div class="testimonials-text">
+										<p>
+											Tenho experiência em criar layouts acessíveis e
+											semânticos, garantindo uma boa experiência para os
+											usuários e otimização para mecanismos de busca.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-css.png"
+											alt="Logo css"
+											data-testimonials-avatar
+											class="img-css"
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										CSS3
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Uso esta tecnologia para estilizar sites de forma criativa
+											e responsiva, aplicando conceitos como animações, design
+											adaptativo para diferentes dispositivos.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-bootstrap.png"
+											alt="Logo bootstrap"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Bootstrap
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Desenvolvo interfaces responsivas de forma ágil e
+											eficiente. Utilizo seus componentes, para acelerar o
+											desenvolvimento de projetos, mantendo um design moderno e
+											funcional.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-git.png"
+											alt="Logo git"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Git
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Git é minha ferramenta principal para o controle de
+											versão, permitindo colaboração eficiente, gerenciamento de
+											ramificações e rastreamento de mudanças no código.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-sass.png"
+											alt="Logo sass"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Sass
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Utilizo o SASS para escrever CSS mais organizado e
+											reutilizável. Com suas funcionalidades consigo manter o
+											código mais limpo e eficiente.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-react.png"
+											alt="Logo react"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										React
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Uso React para criar interfaces de usuário dinâmicas.
+											Desenvolvo componentes reutilizáveis e integro APIs para
+											construir experiências interativas e performáticas.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-javascript.png"
+											alt="Logo javascript"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Javascript
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Utilizo Javascript para adicionar dinamismo aos sites.
+											Tenho domínio em manipulação de DOM, consumo de APIs e
+											desenvolvimento de funcionalidades interativas.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-typescript.png"
+											alt="Logo typescript"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Typescript
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Utilizo TypeScript para escrever código JavaScript mais
+											robusto e com menos erros. A tipagem estática facilita a
+											manutenção e escalabilidade de projetos complexos.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item display-none">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-angular.png"
+											alt="Logo angular"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Angular
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Utilizo so sistema do Angular baseado em componentes e
+											injeção de dependência para construir soluções escaláveis
+											e com alta performance.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item display-none">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-nextjs.png"
+											alt="Logo next.js"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Next.js
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Para projetos que exigem desempenho superior, uso o
+											Next.js. Já que permite criar aplicações React com
+											renderização no servidor e geração de páginas estáticas.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="testimonials-item display-none">
+								<div class="content-card" data-testimonials-item>
+									<figure class="testimonials-avatar-box">
+										<img
+											src="./src/images/icons_skills/icon-vue.png"
+											alt="Logo vue"
+											data-testimonials-avatar
+										/>
+									</figure>
+
+									<h4
+										class="h4 testimonials-item-title"
+										data-testimonials-title
+									>
+										Vue.js
+									</h4>
+
+									<div class="testimonials-text" data-testimonials-text>
+										<p>
+											Com Vue.js, crio aplicações web interativas e leves. Gosto
+											de sua flexibilidade, além de sua capacidade de integrar
+											componentes reativos de forma eficiente.
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<!-- CONTATO -->
+
+				<article class="contact" data-page="contato">
+					<header>
+						<h2 class="h2 article-title">Contato</h2>
+					</header>
+
+					<section class="mapbox" data-mapbox>
+						<figure>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55626.84244514685!2d-50.8664683!3d-29.379726199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951932427804321f%3A0xa71c25f081e5aea6!2sGramado%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1736875382057!5m2!1spt-BR!2sbr"
+								width="400"
+								height="300"
+								loading="lazy"
+							></iframe>
+						</figure>
+					</section>
+
+					<section class="contact-form">
+						<h3 class="h3 form-title">Formulário de Contato</h3>
+
+						<form
+							action="https://formsubmit.co/eduardodsdev@gmail.com"
+							class="form"
+							method="POST"
+							data-form
+						>
+							<div class="input-wrapper">
+								<input
+									type="text"
+									name="fullname"
+									class="form-input"
+									placeholder="Nome Completo"
+									required
+									data-form-input
+								/>
+
+								<input
+									type="email"
+									name="email"
+									class="form-input"
+									placeholder="Email"
+									required
+									data-form-input
+								/>
+							</div>
+
+							<textarea
+								name="message"
+								class="form-input"
+								placeholder="Sua Mensagem"
+								required
+								data-form-input
+							></textarea>
+
+							<button class="form-btn" type="submit" data-form-btn>
+								<ion-icon name="paper-plane"></ion-icon>
+								<span>Enviar Mensagem</span>
+							</button>
+
+							<input type="hidden" name="_subject" value="Novo Contato" />
+							<input type="text" name="_honey" style="display: none" />
+							<input type="hidden" name="_captcha" value="false" />
+							<input
+								type="hidden"
+								name="_next"
+								value=""
+							/>
+						</form>
+					</section>
+				</article>
+			</div>
+		</main>
+
+		<script src="./src/js/script.js"></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
 </html>
