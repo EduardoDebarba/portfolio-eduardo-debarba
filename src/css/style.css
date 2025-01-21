@@ -1186,7 +1186,7 @@ textarea.form-input::-webkit-resizer {
 		margin-left: 5.9375rem;
 	}
 
-	.modal-video {
+	.scrolling-background {
 		display: none;
 	}
 
@@ -1387,7 +1387,7 @@ textarea.form-input::-webkit-resizer {
 		left: -2.6875rem;
 	}
 
-	.modal-video {
+	.scrolling-background{
 		display: none;
 	}
 
@@ -1544,7 +1544,7 @@ textarea.form-input::-webkit-resizer {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.modal-video {
+	.scrolling-background {
 		display: flex;
 	}
 }
