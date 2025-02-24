@@ -88,6 +88,7 @@
 
 a {
 	text-decoration: none;
+	cursor: pointer !important;
 }
 
 li {
@@ -922,6 +923,14 @@ main {
 	background: url("../images/projects/projeto-to-do-list.png");
 }
 
+.scroll-reino-pet{
+	background: url("../images/projects/scroll-projects/scroll-reino-pet.png");
+}
+
+.scroll-voe-alto{
+	background: url("../images/projects/scroll-projects/scroll-voe-alto.png");
+}
+
 .scrolling-background {
 	width: 400px;
 	height: 35rem;
@@ -1005,6 +1014,11 @@ main {
 	align-items: center;
 	gap: 1.25rem;
 	margin-top: 2rem;
+}
+
+.btn-only{
+	margin-top: 2rem;
+	width: 0;
 }
 
 .modal-content .close {
@@ -1206,6 +1220,10 @@ textarea.form-input::-webkit-resizer {
 	.modal-details .buttons {
 		width: 100%;
 		flex-wrap: wrap;
+	}
+
+	.btn-only{
+		width: 100%;
 	}
 }
 
